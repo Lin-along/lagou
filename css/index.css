@@ -1,0 +1,612 @@
+.mian {
+  width: 1216px;
+  margin: 0 auto;
+}
+.header {
+  height: 160px;
+}
+.header .h_top {
+  height: 40px;
+  background-color: #32373e;
+}
+.header .h_top .topCon {
+  height: 40px;
+}
+.header .h_top .topCon .conLeft {
+  height: 40px;
+  float: left;
+  line-height: 40px;
+}
+.header .h_top .topCon .conLeft .leftTxt1 {
+  float: left;
+  line-height: 40px;
+}
+.header .h_top .topCon .conLeft .leftTxt1 .logo {
+  font-size: 22px;
+  color: #00b38a;
+  margin-right: 32px;
+}
+.header .h_top .topCon .conLeft .leftTxt1 .city {
+  font-size: 12px;
+  color: #00b38a;
+  margin-right: 14px;
+}
+.header .h_top .topCon .conLeft .leftTxt1 .city1 {
+  font-size: 12px;
+  color: #afb5c0;
+  margin-right: 36px;
+}
+.header .h_top .topCon .conLeft .ulList {
+  float: left;
+  font-size: 14px;
+}
+.header .h_top .topCon .conLeft .ulList li {
+  float: left;
+  width: 70px;
+  text-align: center;
+}
+.header .h_top .topCon .conLeft .ulList li a {
+  color: #a3b5a7;
+}
+.header .h_top .topCon .conLeft .ulList li:first-child {
+  background-color: #24282c;
+}
+.header .h_top .topCon .conLeft .ulList li:first-child a {
+  color: #fff;
+}
+.header .h_top .topCon .conRight {
+  height: 40px;
+  float: right;
+}
+.header .h_top .topCon .conRight .ulList {
+  line-height: 40px;
+  font-size: 12px;
+}
+.header .h_top .topCon .conRight .ulList li {
+  float: left;
+}
+.header .h_top .topCon .conRight .ulList li a {
+  display: block;
+  color: #93b5c0;
+}
+.header .h_top .topCon .conRight .ulList li .btn span {
+  float: left;
+  background-image: url('../img/sprite.png');
+  background-repeat: no-repeat;
+}
+.header .h_top .topCon .conRight .ulList li .login span {
+  width: 18px;
+  height: 18px;
+  background-position: -76px -136px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.header .h_top .topCon .conRight .ulList li .login2 {
+  margin-right: 40px;
+}
+.header .h_top .topCon .conRight .ulList li .login2 span {
+  padding: 0 12px;
+}
+.header .h_top .topCon .conRight .ulList li .app {
+  color: #08d7a2;
+  margin-right: 24px;
+}
+.header .h_top .topCon .conRight .ulList li .app span {
+  width: 13px;
+  height: 16px;
+  background-position: -96px -212px;
+  margin-top: 12px;
+}
+.header .h_top .topCon .conRight .ulList li:last-child {
+  margin-right: 8px;
+}
+.header .h_bottom {
+  height: 120px;
+  background-color: #00b38a;
+}
+.header .h_bottom .botCon {
+  height: 120px;
+}
+.header .h_bottom .botCon .conLeft {
+  position: relative;
+  width: 566px;
+  height: 120px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+.header .h_bottom .botCon .conLeft .imgBox {
+  display: block;
+  position: absolute;
+  top: 36px;
+  left: 232px;
+}
+.header .h_bottom .botCon .conLeft .txtBox {
+  position: absolute;
+  top: 76px;
+  left: 232px;
+  font-size: 12px;
+}
+.header .h_bottom .botCon .conRight {
+  width: 454px;
+  height: 120px;
+  float: right;
+  position: relative;
+}
+.header .h_bottom .botCon .conRight .btnBox {
+  height: 36px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin-top: -18px;
+  color: #757575;
+  font-size: 12px;
+}
+.header .h_bottom .botCon .conRight .btnBox > input {
+  float: left;
+}
+.header .h_bottom .botCon .conRight .btnBox .txt1 {
+  width: 163px;
+  height: 34px;
+  margin-right: 25px;
+  text-indent: 10px;
+}
+.header .h_bottom .botCon .conRight .btnBox .pBtn {
+  width: 148px;
+  height: 36px;
+  float: left;
+  margin-right: 10px;
+  background-color: #fff;
+}
+.header .h_bottom .botCon .conRight .btnBox .pBtn .txt2 {
+  width: 94px;
+  height: 34px;
+  text-indent: 10px;
+}
+.header .h_bottom .botCon .conRight .btnBox .pBtn .aTxt2 {
+  padding: 6px 4px 9px;
+  color: #00b38a;
+}
+.header .h_bottom .botCon .conRight .btnBox .btnSub {
+  width: 104px;
+  height: 36px;
+  border: solid 1px #ccefe7;
+  color: #ccefe7;
+  float: right;
+  background-color: transparent;
+}
+.sear {
+  height: 132px;
+  background-color: #f2f5F4;
+}
+.sear .searCon {
+  height: 102px;
+  padding-top: 30px;
+}
+.sear .searCon .search {
+  width: 937px;
+  height: 47px;
+  margin: 0 auto;
+}
+.sear .searCon .search .searchInp {
+  width: 792px;
+  height: 43px;
+  border: solid 1px #e8e8e8;
+  float: left;
+}
+.sear .searCon .search .btn {
+  width: 139px;
+  height: 47px;
+  float: left;
+  line-height: 47px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  background-color: #00b38a;
+}
+.sear .searCon .searList {
+  margin-left: 140px;
+  font-style: 12px;
+  height: 38px;
+  line-height: 38px;
+}
+.sear .searCon .searList li {
+  float: left;
+}
+.sear .searCon .searList li a {
+  color: #00c1cc;
+  padding: 0 11px;
+}
+.sear .searCon .searList li:first-child a {
+  color: #778ab9;
+  padding: 0;
+}
+.banCon {
+  padding-top: 46px;
+}
+.banCon .banLeft {
+  width: 300px;
+  float: left;
+}
+.banCon .banLeft .banList {
+  font-size: 12px;
+}
+.banCon .banLeft .banList li {
+  margin-bottom: 30px;
+}
+.banCon .banLeft .banList li a {
+  color: #555555;
+  padding: 0 13px;
+}
+.banCon .banLeft .banList li a:first-child {
+  font-size: 17px;
+  padding: 0;
+}
+.banCon .banLeft .banList li span {
+  float: right;
+  font-family: "宋体";
+  color: #555555;
+  margin-top: 5px;
+}
+.banCon .banRight {
+  width: 840px;
+  float: right;
+  position: relative;
+}
+.banCon .banRight .banImgBox {
+  height: 347px;
+}
+.banCon .banRight .banImgBox img {
+  width: 100%;
+  height: 100%;
+}
+.banCon .banRight span {
+  width: 22px;
+  height: 34px;
+  font-size: 34px;
+  color: #757479;
+  font-family: "宋体";
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  display: none;
+}
+.banCon .banRight .btnLeft {
+  right: 20px;
+}
+.banCon .banRight .btnRight {
+  left: 20px;
+}
+.banCon .banRight:hover span {
+  display: block;
+}
+.content .lineTop {
+  height: 118px;
+}
+.content .lineTop .top1 {
+  height: 53px;
+  line-height: 53px;
+  border-bottom: solid 1px #e8e8e8;
+  font-size: 16px;
+}
+.content .lineTop .top1 .hotBtn {
+  border-bottom: solid 2px #000;
+  padding-bottom: 15px;
+  margin-right: 60px;
+}
+.content .lineTop .top1 .newBtn {
+  color: #999999;
+}
+.content .lineTop .top2 {
+  height: 42px;
+  padding-top: 24px;
+  font-size: 12px;
+}
+.content .lineTop .top2 span,
+.content .lineTop .top2 a {
+  line-height: 18px;
+}
+.content .lineTop .top2 span {
+  width: 18px;
+  height: 18px;
+  background-color: #e6e6e6;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  float: left;
+  margin-right: 14px;
+}
+.content .lineTop .top2 a:nth-of-type(1) {
+  color: #999999;
+  margin-right: 55px;
+}
+.content .lineTop .top2 a:nth-of-type(2) {
+  color: #00b38a;
+}
+.content .more {
+  width: 388px;
+  height: 42px;
+  border: solid 1px #00b38a;
+  color: #00b38a;
+  margin: 0 auto;
+  line-height: 42px;
+  text-align: center;
+}
+.content .line1 {
+  margin-bottom: 50px;
+}
+.content .line1 .conUl li {
+  margin-bottom: 11px;
+}
+.content .line1 .conUl li div {
+  float: left;
+}
+.content .line1 .conUl li div:nth-of-type(2) {
+  margin: 0px 13px 0px 14px;
+}
+.content .line1 .conUl .conBox {
+  width: 355px;
+  border: solid 1px #eaeeed;
+  padding: 24px 17px 16px;
+}
+.content .line1 .conUl .conBox .btn {
+  color: #9999b2;
+  font-size: 17px;
+}
+.content .line1 .conUl .conBox .job .jobTxt {
+  color: #000;
+}
+.content .line1 .conUl .conBox .job .time {
+  margin: 0 8px;
+}
+.content .line1 .conUl .conBox .job img {
+  margin-top: 2px;
+}
+.content .line1 .conUl .conBox .job span {
+  float: left;
+}
+.content .line1 .conUl .conBox .job .money {
+  float: right;
+  font-size: 12px;
+  color: #fa6041;
+  margin-top: 4px;
+}
+.content .line1 .conUl .conBox .btn2 {
+  margin: 13px 0;
+  float: left;
+}
+.content .line1 .conUl .conBox .pBor {
+  border-bottom: dashed 1px #eaeeed;
+  padding-bottom: 20px;
+}
+.content .line1 .conUl .conBox .pBor .spa {
+  float: left;
+  width: 80px;
+  height: 28px;
+  border: solid 1px #eaeeed;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 12px;
+  text-align: center;
+  line-height: 26px;
+}
+.content .line1 .conUl .conBox .imgBox {
+  padding-top: 18px;
+}
+.content .line1 .conUl .conBox .imgBox img {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 14px;
+}
+.content .line1 .conUl .conBox .imgBox .imgTxt {
+  font-size: 12px;
+  float: left;
+  line-height: 20px;
+}
+.content .line1 .conUl .conBox .imgBox .imgTxt .txt2 {
+  color: #9999b2;
+}
+.content .line2 .con2Box {
+  margin: 16px 0;
+}
+.content .line2 .con2Box .listBox {
+  width: 248px;
+  height: 244px;
+  border: solid 1px #eeeeee;
+  padding: 12px 20px;
+  text-align: center;
+  float: left;
+  margin: 0 8px;
+}
+.content .line2 .con2Box .listBox img {
+  width: 80px;
+  height: 80px;
+  padding: 0 84px;
+  margin-bottom: 16px;
+}
+.content .line2 .con2Box .listBox .spa1 {
+  padding: 0 98px;
+}
+.content .line2 .con2Box .listBox .txt1 {
+  font-size: 12px;
+  color: #999999;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+.content .line2 .con2Box .listBox .txt2 {
+  font-size: 12px;
+  color: #555555;
+  width: 248px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: dashed 1px #e0e0e0;
+  padding-bottom: 16px;
+}
+.content .line2 .con2Box .listBox .listCon {
+  color: #999999;
+  font-size: 12px;
+  margin-top: 18px;
+}
+.content .line2 .con2Box .listBox .listCon .box1 {
+  width: 78px;
+  float: left;
+}
+.content .line2 .con2Box .listBox .listCon .box1 p {
+  color: #00b38a;
+}
+.content .line2 .con2Box .listBox .listCon .box1:nth-child(2) {
+  border-left: solid 1px #999999;
+  border-right: solid 1px #999999;
+  margin: 0 6px;
+}
+.content .line2 .con2Box .listBox:nth-child(1) {
+  margin-left: 0;
+}
+.content .line2 .con2Box .listBox:nth-child(4) {
+  margin-right: 0;
+}
+.content .line3 {
+  margin-top: 40px;
+}
+.content .line3 .btnCon {
+  margin-top: 30px;
+  font-size: 12px;
+}
+.content .line3 .btnCon a {
+  color: #555;
+  margin-right: 18px;
+  float: left;
+}
+.content .line3 .btnCon p {
+  float: right;
+}
+.content .line3 .btnCon .openTxt {
+  color: #99a5c2;
+}
+.content .line3 .btnCon .openTxt img {
+  display: block;
+  width: 12px;
+  margin-top: 5px;
+  margin-left: 4px;
+  float: right;
+}
+.footer {
+  border-top: solid 1px #ebebeb;
+  margin-top: 70px;
+}
+.footer .fooTop {
+  height: 236px;
+  padding-top: 50px;
+}
+.footer .fooTop .appBox {
+  width: 314px;
+  height: 170px;
+  border-right: solid 1px #e8e8e8;
+  float: left;
+  margin-right: 130px;
+}
+.footer .fooTop .appBox .btnApp {
+  width: 180px;
+  height: 44px;
+  border: solid 1px #00b38a;
+  line-height: 44px;
+  text-align: center;
+  color: #00b38a;
+  margin-bottom: 17px;
+}
+.footer .fooTop .appBox .btnApp span {
+  float: left;
+  width: 12px;
+  height: 15px;
+  margin-left: 38px;
+  margin-top: 14px;
+  background-image: url("/img/sprite2.png");
+  background-repeat: no-repeat;
+}
+.footer .fooTop .appBox .btnApp:nth-child(1) span {
+  background-position: -151px -221px;
+}
+.footer .fooTop .appBox .btnApp:nth-child(2) span {
+  background-position: -215px -55px;
+}
+.footer .fooTop .appBox .btnTxt {
+  font-size: 12px;
+  color: #555;
+}
+.footer .fooTop .appBox .btnTxt img {
+  display: inline-block;
+  margin-right: 5px;
+}
+.footer .fooTop .appBox .btnTxt img:nth-child(2) {
+  margin-left: 28px;
+}
+.footer .fooTop dl {
+  float: left;
+}
+.footer .fooTop dl dt {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 26px;
+}
+.footer .fooTop dl dd {
+  font-size: 12px;
+  color: #555;
+  height: 44px;
+  line-height: 44px;
+}
+.footer .fooTop .dlCen {
+  margin: 0 170px;
+}
+.footer .fooBottom {
+  height: 100px;
+  background-color: #fafafa;
+}
+.footer .fooBottom .bottCon {
+  height: 100px;
+  color: #555;
+}
+.footer .fooBottom .bottCon > p {
+  margin-top: 50px;
+}
+.footer .fooBottom .bottCon .txtP1 {
+  float: left;
+  margin-right: 20px;
+}
+.footer .fooBottom .bottCon .txtP2 {
+  float: left;
+  margin-right: 20px;
+}
+.footer .fooBottom .bottCon .txtP2 span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/sprite2.png");
+  background-repeat: no-repeat;
+  background-position: -150px -184px;
+}
+.footer .fooBottom .bottCon .txtBox {
+  border: solid 1px #555;
+  float: left;
+  margin-top: 28px;
+  padding: 8px;
+}
+.footer .fooBottom .bottCon .txtBox span {
+  float: left;
+  width: 20px;
+  height: 24px;
+  background-image: url("../img/sprite2.png");
+  background-repeat: no-repeat;
+  background-position: -132px -20px;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+.footer .fooBottom .bottCon .txtBox p {
+  float: left;
+}
+.footer .fooBottom .bottCon .imgBox {
+  float: right;
+  margin-top: 50px;
+}

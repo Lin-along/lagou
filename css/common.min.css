@@ -1,0 +1,1 @@
+.clearfix::after,.clearfix::before{content:'';display:table;clear:both}li{list-style:none}a{text-decoration:none;color:#000}*{border:none}input{outline:0;border:none}button{outline:0;border:none;background-color:#fff}
